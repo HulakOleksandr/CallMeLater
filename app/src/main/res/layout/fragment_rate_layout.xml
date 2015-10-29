@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/feedback"
+        android:textColor="@android:color/primary_text_light"
+        android:id="@+id/feedbackTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/rate_us"
+        android:textColor="@android:color/primary_text_light"
+        android:id="@+id/rateusTextView"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/feedbackTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/sendEmailBtn"
+
+            android:text="@string/send_email_btn"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+
+            android:layout_below="@id/rateusTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+        <Button
+            android:id="@+id/rateUsBtn"
+
+            android:text="@string/rate_us_btn"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+
+            android:layout_below="@id/sendEmailBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+
+</RelativeLayout>

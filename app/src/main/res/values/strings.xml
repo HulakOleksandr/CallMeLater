@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Voice Call Reject</string>
+
+    <string name="act_title">Call me later</string>
+    <string name="kws_caption">To start demonstration say \"Call me later\".</string>
+    <string name="turn_button">ON / OFF</string>
+    <string name="action_rate">Rate us</string>
+    <string name="feedback">If you have any suggestions or bugs to report, please send us an email.</string>
+    <string name="rate_us">If you like this app, please give us a good rate on the market. Thanks!</string>
+    <string name="action_home">Go to home screen</string>
+    <string name="action_about">About us</string>
+    <string name="hello">Hello</string>
+    <string name="say_keyphrase">say \'Call me later\' to reject an incoming call</string>
+    <string name="send_email_btn">Send Email</string>
+    <string name="rate_us_btn">Rate us</string>
+    <string name="about_us">Version 1.0.0\n\nMade by <b>Gulaxoft</b>\n\nEmail: gulaxoft@gmail.com\n\nThis app was made with using PocketSphinx library.\nClick the button with microphone to turn on/off recognizing.\n\nThanks for downloading. You encourage us to improve this app in future versions.\nHave a nice day!</string>
+</resources>
